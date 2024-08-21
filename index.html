@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rinterio-assignment-3</title>
+    <!-- favicon -->
+     <link rel="shortcut icon" href="./assets/residential.png" type="image/x-icon">
     <!-- font awesome CDN -->
     <script src="https://kit.fontawesome.com/63f1481430.js" crossorigin="anonymous"></script>
     <!-- Tailwind + DaisyUI CDN -->
@@ -22,7 +24,6 @@
                         btn_primary: 'rgba(171, 239, 95, 1)',
                         accent: 'rgba(171, 239, 95, 0.5)',
                         body: 'rgb(237,237,237)',
-                        body_neutral: 'rgb(51, 51, 51)',
                     },
                     fontFamily: {
                         Manrope : '"Manrope", sans-serif',
@@ -35,7 +36,55 @@
         }
  </script>
 </head>
-<body class="font-Manrope">
+<body class="font-Manrope bg-gray-100">
+<!-- header section start -->
+ <header class="md:w-11/12 mx-auto">
+    <!-- navbar start -->
+    <nav>
+        <div class="navbar pt-3">
+            <div class="navbar-start">
+                  <a  class="flex items-center gap-2" href="index.html">
+                    <i class="fa-solid fa-arrow-right -rotate-45 bg-btn_primary p-3 rounded-full w-6 h-6 flex justify-center items-center "></i><h3 class="text-2xl md:text-3xl font-extrabold">Rinterio</h3>
+                </a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu  menu-horizontal px-1 text-lg">
+                <li class="font-extrabold"><a>Home</a></li>
+                <li><a>Service</a></li>
+                <li><a>Portfolio</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end gap-3">
+                <div class="flex items-center gap-3">
+                    <a class="bg-white p-4 rounded-full w-6 h-6 flex justify-center items-center opacity-60" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a class="bg-white p-4 rounded-full w-6 h-6 flex justify-center items-center opacity-60" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+                <div class="hidden sm:block ">
+                    <button class="btn bg-btn_primary rounded-full px-2 py-0 hover:bg-accent duration-300 ease-in-out">
+                        <a class=" flex items-center gap-1" href="#"><span class="font-bold text-sm">Book Consult</span><i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white p-3 rounded-full w-6 h-6 flex justify-center items-center  opacity-80"></i></a>
+                    </button>
 
+                </div>
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="  lg:hidden">
+                    <button class="bg-white p-4 rounded-full w-6 h-6 flex justify-center items-center opacity-60"><i class="fa-solid fa-bars"></i></button>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0">
+                  <li class="font-extrabold"><a>Home</a></li>
+                  <li><a>Service</a></li>
+                  <li><a>Portfolio</a></li>
+                  <li><a>Blogs</a></li>
+                  <li><a>Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    </nav>
+    <!-- navbar end -->
+ </header>
 </body>
 </html>
