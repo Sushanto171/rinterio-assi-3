@@ -64,9 +64,9 @@
                     </div>
                     <div class="navbar-end gap-3 ">
                         <div class="md:flex items-center gap-3 hidden">
-                            <a class="bg-white p-4 rounded-full w-6 h-6 flex justify-center items-center opacity-60 hover:opacity-100"
-                                href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-                            <a class="bg-white p-4 rounded-full w-6 h-6 flex justify-center items-center opacity-60 hover:opacity-100"
+                            <a class="bg-white p-4 rounded-full w-6 h-6 flex justify-center items-center opacity-60 hover:opacity-100 hover:scale-110 duration-500 ease-in-out"
+                                href="#"><i class="fa-solid fa-magnifying-glass "></i></a>
+                            <a class="bg-white p-4 rounded-full w-6 h-6 flex justify-center items-center opacity-60 hover:opacity-100 hover:scale-110 duration-500 ease-in-out"
                                 href="#"><i class="fa-solid fa-cart-shopping"></i></a>
                         </div>
                         <div class="hidden sm:block ">
@@ -81,7 +81,7 @@
                         <div class="dropdown">
                             <div tabindex="0" role="button" class="  lg:hidden">
                                 <button
-                                    class="bg-white p-4 rounded-full w-6 h-6 flex justify-center items-center opacity-60 hover:opacity-100"><i
+                                    class="bg-white p-4 rounded-full w-6 h-6 flex justify-center items-center opacity-60 hover:opacity-100 hover:scale-110 duration-500 ease-in-out "><i
                                         class="fa-solid fa-bars"></i></button>
                             </div>
                             <ul tabindex="0"
@@ -245,16 +245,15 @@
                 <!-- work grid -->
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                     <!-- work card-1 -->
-                    <div class=" bg-pink-200 p-6 rounded-lg mb-5">
+                    <div class=" bg-pink-200 p-6 rounded-lg mb-5 transition-transform duration-500 md:hover:-translate-y-2 cursor-pointer">
                         <img class="w-10 h-10" src="./assets/concept.png" alt="concept">
                         <div class="text-left space-y-3">
                             <h4 class="md:text-xl font-extrabold">Concept</h4>
                             <p>The barn house captivates with its blend of rustic charm and modern.</p>
                         </div>
                     </div>
-                    <!-- work card-
-                   2 -->
-                    <div class=" bg-yellow-200 p-6 rounded-lg mb-5">
+                    <!-- work card-2 -->
+                    <div class=" bg-yellow-200 p-6 rounded-lg mb-5 transition-transform duration-500 md:hover:-translate-y-2 cursor-pointer">
                         <img class="w-10 h-10" src="./assets/flow-chart.png" alt="flow-chart">
                         <div class="text-left space-y-3">
                             <h4 class="md:text-xl font-extrabold">Design Process</h4>
@@ -262,7 +261,7 @@
                         </div>
                     </div>
                     <!-- work card-3 -->
-                    <div class=" bg-emerald-200 p-6 rounded-lg mb-5">
+                    <div class=" bg-emerald-200 p-6 rounded-lg mb-5 transition-transform duration-500 md:hover:-translate-y-2 cursor-pointer">
                         <img class="w-10 h-10" src="./assets/vision.png" alt="vision">
                         <div class="text-left space-y-3">
                             <h4 class="md:text-xl font-extrabold">Supervision</h4>
@@ -270,7 +269,7 @@
                         </div>
                     </div>
                     <!-- work card-4 -->
-                    <div class=" bg-sky-300 p-6 rounded-lg mb-5">
+                    <div class=" bg-sky-300 p-6 rounded-lg mb-5 transition-transform duration-500 md:hover:-translate-y-2 cursor-pointer">
                         <img class="w-10 h-10" src="./assets/budget-planning.png" alt="budget-planning">
                         <div class="text-left space-y-3">
                             <h4 class="md:text-xl font-extrabold">Budget-Planning</h4>
@@ -307,8 +306,8 @@
                     <!-- card-1 -->
                     <div class="bg-white md:flex gap-4 p-5 border rounded-2xl md:col-span-2 lg:col-span-5 lg:order-1">
                         <!-- image -->
-                        <div class="">
-                            <img class="w-full max-h-60 lg:h-full" src="./assets/img1.png" alt="img1">
+                        <div class="overflow-hidden rounded-3xl">
+                            <img class="w-full max-h-60 lg:h-full transition duration-500 object-cover ease-linear hover:scale-105 cursor-pointer" src="./assets/img1.png" alt="img1">
                         </div>
                         <!-- content -->
                         <div class="text-left space-y-2 mt-2 md:mt-0 flex-1">
@@ -322,18 +321,22 @@
                         </div>
                     </div>
                     <!-- card-2 -->
-                    <div class="bg-white p-5 border rounded-2xl lg:col-span-3 lg:order-2">
-                        <img class="w-full h-60 lg:h-full" src="./assets/img2.png" alt="img2">
+                    <div class="p-5 border rounded-2xl lg:col-span-3 lg:order-2 ">
+                        <div class="overflow-hidden rounded-3xl">
+                            <img class="w-full h-60 lg:h-full transition duration-500 object-cover ease-linear hover:scale-105 cursor-pointer overflow-hidden" src="./assets/img2.png" alt="img2">
+                        </div>
                     </div>
                     <!-- lg-hidden-card- -->
                     <div class="bg-white p-5 border rounded-2xl lg:hidden">
-                        <img class="w-full max-h-60 lg:h-full" src="./assets/img5.png" alt="img5">
+                        <div class="overflow-hidden rounded-3xl">
+                            <img class="w-full max-h-60 lg:h-full transition duration-500 object-cover ease-linear hover:scale-105 cursor-pointer" src="./assets/img5.png" alt="img5">
+                        </div>
                     </div>
                     <!-- card-3 -->
                     <div class="bg-white md:flex gap-4 p-5 border rounded-2xl md:col-span-2 lg:col-span-4 lg:order-4">
                         <!-- image -->
-                        <div class="">
-                            <img class="w-full max-h-60 lg:h-full" src="./assets/img4.png" alt="img4">
+                        <div class="overflow-hidden rounded-3xl">
+                            <img class="w-full max-h-60 lg:h-full transition duration-500 object-cover ease-linear hover:scale-105 cursor-pointer" src="./assets/img4.png" alt="img4">
                         </div>
                         <!-- content -->
                         <div class="text-left space-y-4 mt-2 md:mt-0 flex-1">
@@ -349,11 +352,15 @@
                     </div>
                     <!-- card-4 -->
                     <div class="bg-white p-5 border rounded-2xl lg:col-span-2 lg:order-3">
-                        <img class="w-full max-h-60 lg:h-full" src="./assets/img3.png" alt="img3">
+                        <div class="overflow-hidden rounded-3xl">
+                            <img class="w-full max-h-60 lg:h-full transition duration-500 object-cover ease-linear hover:scale-105 cursor-pointer" src="./assets/img3.png" alt="img3">
+                        </div>
                     </div>
                     <!-- card-5 -->
                     <div class="bg-white p-5 border rounded-2xl lg:col-span-2 lg:order-5">
-                        <img class="w-full max-h-60 lg:h-full" src="./assets/img5.png" alt="img5">
+                        <div class="overflow-hidden rounded-3xl">
+                            <img class="w-full max-h-60 lg:h-full transition duration-500 object-cover ease-linear hover:scale-105 cursor-pointer" src="./assets/img5.png" alt="img5">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -375,11 +382,11 @@
             </div>
             <div class="w-2/3 mx-auto">
                 <div class="carousel w-full">
-                    <div id="item1" class="carousel-item w-full ">
+                    <div id="item1" class="carousel-item w-full cursor-pointer">
                         <div
                             class="w-full flex pt-2 pb-6 flex-col justify-center items-center text-center bg-black text-white rounded-3xl">
                             <div class="w-40 h-40 rounded-full">
-                                <img src="./assets/client-1.jpg" class="w-full rounded-full" />
+                                <img src="./assets/client-1.jpg" class="w-full rounded-full hover:ring-2 ring-white duration-500 ease-linear" />
                             </div>
                             <div class="space-y-5 pt-3">
                                 <div class="rating">
@@ -398,11 +405,11 @@
                             </div>
                         </div>
                     </div>
-                    <div id="item2" class="carousel-item w-full">
+                    <div id="item2" class="carousel-item w-full cursor-pointer">
                         <div
                             class="w-full flex pt-2 pb-6 flex-col justify-center items-center text-center bg-black text-white rounded-3xl">
-                            <div class="w-40 h-40 rounded-full">
-                                <img src="./assets/client-2.jpg" class="w-full rounded-full" />
+                            <div class="w-40 h-40 rounded-full ">
+                                <img src="./assets/client-2.jpg" class="w-full rounded-full hover:ring-2 ring-white duration-500 ease-linear" />
                             </div>
                             <div class="space-y-5 pt-3">
                                 <div class="rating">
@@ -421,11 +428,11 @@
                             </div>
                         </div>
                     </div>
-                    <div id="item3" class="carousel-item w-full">
+                    <div id="item3" class="carousel-item w-full cursor-pointer">
                         <div
                             class="w-full flex pt-2 pb-6 flex-col justify-center items-center text-center bg-black text-white rounded-3xl">
                             <div class="w-40 h-40 rounded-full">
-                                <img src="./assets/client-3.jpg" class="w-full rounded-full" />
+                                <img src="./assets/client-3.jpg" class="w-full rounded-full hover:ring-2 ring-white duration-500 ease-linear" />
                             </div>
                             <div class="space-y-5 pt-3">
                                 <div class="rating">
@@ -485,9 +492,9 @@
                     <!-- blogs -->
                     <div class="lg:flex gap-4 justify-center">
                         <!-- blog-1 -->
-                        <div class="md:flex lg:flex-col gap-4 bg-white  p-6 rounded-xl mt-3">
-                            <div>
-                                <img class="w-full" src="./assets/article1.png" alt="article1">
+                        <div class="md:flex lg:flex-col gap-4 bg-white  p-6 rounded-xl mt-3 transition-transform duration-500 lg:hover:-translate-y-2 cursor-pointer">
+                            <div class="overflow-hidden rounded-3xl">
+                                <img class="w-full h-full transition duration-500 object-cover ease-linear hover:scale-105 cursor-pointer" src="./assets/article1.png" alt="article1">
                             </div>
                             <!-- blog content -->
                             <div class="text-left space-y-2">
@@ -510,9 +517,9 @@
                             </div>
                         </div>
                         <!-- blog-2 -->
-                        <div class="md:flex lg:flex-col gap-4 bg-white  p-6 rounded-xl mt-3">
-                            <div>
-                                <img class="w-full" src="./assets/article2.png" alt="article2">
+                        <div class="md:flex lg:flex-col gap-4 bg-white  p-6 rounded-xl mt-3 transition-transform duration-500 lg:hover:-translate-y-2 cursor-pointer">
+                            <div class="overflow-hidden rounded-3xl">
+                                <img class="w-full h-full transition duration-500 object-cover ease-linear hover:scale-105 cursor-pointer" src="./assets/article2.png" alt="article2">
                             </div>
                             <!-- blog content -->
                             <div class="text-left space-y-2">
@@ -535,9 +542,9 @@
                             </div>
                         </div>
                         <!-- blog-3 -->
-                        <div class="md:flex lg:flex-col gap-4 bg-white  p-6 rounded-xl mt-3">
-                            <div>
-                                <img class="w-full" src="./assets/article3.png" alt="article3">
+                        <div class="md:flex lg:flex-col gap-4 bg-white  p-6 rounded-xl mt-3 transition-transform duration-500 lg:hover:-translate-y-2 cursor-pointer">
+                            <div class="overflow-hidden rounded-3xl">
+                                <img class="w-full h-full transition duration-500 object-cover ease-linear hover:scale-105 cursor-pointer" src="./assets/article3.png" alt="article3">
                             </div>
                             <!-- blog content -->
                             <div class="text-left space-y-2">
@@ -589,19 +596,19 @@
                 <form action="">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-5 md:w-2/3 mx-auto">
                         <div>
-                            <input class="w-full py-3 px-4 rounded-full placeholder:text-sm bg-white outline-none"
+                            <input class="w-full py-3 px-4 rounded-full placeholder:text-sm bg-white focus:outline-double outline-offset-4 outline-gray-400"
                                 type="text" placeholder="First Name*" required>
                         </div>
                         <div>
-                            <input class="w-full py-3 px-4 rounded-full placeholder:text-sm bg-white outline-none"
+                            <input class="w-full py-3 px-4 rounded-full placeholder:text-sm bg-white focus:outline-double outline-offset-4 outline-gray-400"
                                 type="text" placeholder="Last Name*" required>
                         </div>
                         <div>
-                            <input class="w-full py-3 px-4 rounded-full placeholder:text-sm bg-white outline-none"
+                            <input class="w-full py-3 px-4 rounded-full placeholder:text-sm bg-white focus:outline-double outline-offset-4 outline-gray-400"
                                 type="number" placeholder="Phone Number*" required>
                         </div>
                         <div>
-                            <input class="w-full py-3 px-4 rounded-full placeholder:text-sm bg-white outline-none"
+                            <input class="w-full py-3 px-4 rounded-full placeholder:text-sm bg-white focus:outline-double outline-offset-4 outline-gray-400"
                                 type="email" placeholder="Email Address*" required>
                         </div>
                         <div class="md:col-span-2">
