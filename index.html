@@ -134,7 +134,7 @@
             <div class="hidden lg:block pl-2 pt-8">
                 <img src="./assets/Vector.png" alt="">
             </div>
-            <div class=" w-11/12 mx-auto lg:flex gap-4">
+            <div class=" w-11/12 mx-auto lg:flex gap-8">
                 <!-- about content -->
                 <div class="flex-1
                     text-center lg:text-left py-3 pt-9 md:pt-3">
@@ -144,23 +144,24 @@
                             About Us
                         </button>
                     </div>
-                    <div class="lg:bg-white my-4 p-6 rounded-lg">
+                    <!--about-card-1 -->
+                    <div class="lg:bg-white my-4 p-6 rounded-lg transition-all duration-500 ease-in-out lg:hover:scale-105  cursor-pointer">
                         <h3 class="text-2xl md:text-4xl font-extrabold ">We design thoughtful, <br>liveable spaces</h3>
                         <p class="pt-3">
                             The barn house captivates with its blend of rustic charm and
                             modern sophistication, featuring weathered wood, sleek metal accents.
                         </p>
                     </div>
-                    <!-- about card-1 -->
-                    <div class="flex gap-5 bg-white p-6 rounded-lg mb-5">
+                    <!-- about card-2 -->
+                    <div class="flex gap-5 bg-white p-6 rounded-lg mb-5 transition-all duration-500 ease-in-out hover:scale-105 cursor-pointer">
                         <img class="w-10 h-10" src="./assets/commercial.png" alt="commercial">
                         <div class="text-left space-y-3">
                             <h4 class="md:text-xl font-extrabold">Commercial</h4>
                             <p>The barn house captivates with its blend of rustic charm and modern.</p>
                         </div>
                     </div>
-                    <!-- about card-2 -->
-                    <div class="flex gap-5 bg-white p-6 rounded-lg">
+                    <!-- about card-3 -->
+                    <div class="flex gap-5 bg-white p-6 rounded-lg transition-all duration-500 ease-in-out hover:scale-105 cursor-pointer">
                         <img class="w-10 h-10" src="./assets/residential.png" alt="residential">
                         <div class="text-left space-y-3">
                             <h4 class="md:text-xl font-extrabold">Residential</h4>
@@ -182,8 +183,8 @@
         <!-- Stat section start -->
         <section class="bg-base-200 pb-10">
             <div
-                class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 shadow w-11/12 mx-auto bg-white py-10 rounded-lg">
-                <div class="flex flex-col justify-center text-center gap-2">
+                class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 shadow w-11/12 mx-auto bg-white py-10 rounded-lg justify-around px-4">
+                <div class="flex flex-col justify-center text-center gap-2 border-r-2 border-transparent lg:hover:border-gray-200 cursor-pointer">
                     <div class="flex justify-center opacity-60">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="size-8">
@@ -194,12 +195,12 @@
                     <div class="stat-value">235+</div>
                     <div class="stat-desc">Happy Client Review</div>
                 </div>
-                <div class="flex flex-col justify-center text-center gap-2">
+                <div class="flex flex-col justify-center text-center gap-2 lg:hover:border-x-2 cursor-pointer">
                     <i class="fa-regular fa-building text-3xl opacity-60"></i>
                     <div class="stat-value">50+</div>
                     <div class="stat-desc">Work Departments</div>
                 </div>
-                <div class="flex flex-col justify-center text-center gap-2">
+                <div class="flex flex-col justify-center text-center gap-2 lg:hover:border-x-2 cursor-pointer">
                     <div class="flex justify-center opacity-60">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="size-8">
@@ -210,7 +211,7 @@
                     <div class="stat-value">30k+</div>
                     <div class="stat-desc">Our happy client</div>
                 </div>
-                <div class="flex flex-col justify-center text-center gap-2">
+                <div class="flex flex-col justify-center text-center gap-2 border-l-2 border-transparent lg:hover:border-gray-200 cursor-pointer ">
                     <div class="flex justify-center opacity-60">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="size-8">
@@ -245,7 +246,7 @@
                 <!-- work grid -->
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                     <!-- work card-1 -->
-                    <div class=" bg-pink-200 p-6 rounded-lg mb-5 transition-transform duration-500 md:hover:-translate-y-2 cursor-pointer">
+                    <div class=" bg-pink-200 p-6 rounded-lg mb-5 transition-transform duration-500 hover:scale-105 md:hover:scale-100 md:hover:-translate-y-2 cursor-pointer">
                         <img class="w-10 h-10" src="./assets/concept.png" alt="concept">
                         <div class="text-left space-y-3">
                             <h4 class="md:text-xl font-extrabold">Concept</h4>
@@ -253,7 +254,7 @@
                         </div>
                     </div>
                     <!-- work card-2 -->
-                    <div class=" bg-yellow-200 p-6 rounded-lg mb-5 transition-transform duration-500 md:hover:-translate-y-2 cursor-pointer">
+                    <div class=" bg-yellow-200 p-6 rounded-lg mb-5 transition-transform duration-500 hover:scale-105 md:hover:scale-100 md:hover:-translate-y-2 cursor-pointer">
                         <img class="w-10 h-10" src="./assets/flow-chart.png" alt="flow-chart">
                         <div class="text-left space-y-3">
                             <h4 class="md:text-xl font-extrabold">Design Process</h4>
@@ -261,7 +262,7 @@
                         </div>
                     </div>
                     <!-- work card-3 -->
-                    <div class=" bg-emerald-200 p-6 rounded-lg mb-5 transition-transform duration-500 md:hover:-translate-y-2 cursor-pointer">
+                    <div class=" bg-emerald-200 p-6 rounded-lg mb-5 transition-transform duration-500 hover:scale-105 md:hover:scale-100 md:hover:-translate-y-2 cursor-pointer">
                         <img class="w-10 h-10" src="./assets/vision.png" alt="vision">
                         <div class="text-left space-y-3">
                             <h4 class="md:text-xl font-extrabold">Supervision</h4>
@@ -269,7 +270,7 @@
                         </div>
                     </div>
                     <!-- work card-4 -->
-                    <div class=" bg-sky-300 p-6 rounded-lg mb-5 transition-transform duration-500 md:hover:-translate-y-2 cursor-pointer">
+                    <div class=" bg-sky-300 p-6 rounded-lg mb-5 transition-transform duration-500 hover:scale-105 md:hover:scale-100 md:hover:-translate-y-2 cursor-pointer">
                         <img class="w-10 h-10" src="./assets/budget-planning.png" alt="budget-planning">
                         <div class="text-left space-y-3">
                             <h4 class="md:text-xl font-extrabold">Budget-Planning</h4>
@@ -307,7 +308,7 @@
                     <div class="bg-white md:flex gap-4 p-5 border rounded-2xl md:col-span-2 lg:col-span-5 lg:order-1">
                         <!-- image -->
                         <div class="overflow-hidden rounded-3xl">
-                            <img class="w-full max-h-60 lg:h-full transition duration-500 object-cover ease-linear hover:scale-105 cursor-pointer" src="./assets/img1.png" alt="img1">
+                            <img class="w-full max-h-60 lg:h-full transition duration-500 object-cover ease-linear hover:scale-105  cursor-pointer" src="./assets/img1.png" alt="img1">
                         </div>
                         <!-- content -->
                         <div class="text-left space-y-2 mt-2 md:mt-0 flex-1">
@@ -323,20 +324,20 @@
                     <!-- card-2 -->
                     <div class="p-5 border rounded-2xl lg:col-span-3 lg:order-2 ">
                         <div class="overflow-hidden rounded-3xl">
-                            <img class="w-full h-60 lg:h-full transition duration-500 object-cover ease-linear hover:scale-105 cursor-pointer overflow-hidden" src="./assets/img2.png" alt="img2">
+                            <img class="w-full h-60 lg:h-full transition duration-500 object-cover ease-linear hover:scale-105  cursor-pointer overflow-hidden" src="./assets/img2.png" alt="img2">
                         </div>
                     </div>
                     <!-- lg-hidden-card- -->
                     <div class="bg-white p-5 border rounded-2xl lg:hidden">
                         <div class="overflow-hidden rounded-3xl">
-                            <img class="w-full max-h-60 lg:h-full transition duration-500 object-cover ease-linear hover:scale-105 cursor-pointer" src="./assets/img5.png" alt="img5">
+                            <img class="w-full max-h-60 lg:h-full transition duration-500 object-cover ease-linear hover:scale-105  cursor-pointer" src="./assets/img5.png" alt="img5">
                         </div>
                     </div>
                     <!-- card-3 -->
                     <div class="bg-white md:flex gap-4 p-5 border rounded-2xl md:col-span-2 lg:col-span-4 lg:order-4">
                         <!-- image -->
                         <div class="overflow-hidden rounded-3xl">
-                            <img class="w-full max-h-60 lg:h-full transition duration-500 object-cover ease-linear hover:scale-105 cursor-pointer" src="./assets/img4.png" alt="img4">
+                            <img class="w-full max-h-60 lg:h-full transition duration-500 object-cover ease-linear hover:scale-105  cursor-pointer" src="./assets/img4.png" alt="img4">
                         </div>
                         <!-- content -->
                         <div class="text-left space-y-4 mt-2 md:mt-0 flex-1">
@@ -353,13 +354,13 @@
                     <!-- card-4 -->
                     <div class="bg-white p-5 border rounded-2xl lg:col-span-2 lg:order-3">
                         <div class="overflow-hidden rounded-3xl">
-                            <img class="w-full max-h-60 lg:h-full transition duration-500 object-cover ease-linear hover:scale-105 cursor-pointer" src="./assets/img3.png" alt="img3">
+                            <img class="w-full max-h-60 lg:h-full transition duration-500 object-cover ease-linear hover:scale-105  cursor-pointer" src="./assets/img3.png" alt="img3">
                         </div>
                     </div>
                     <!-- card-5 -->
                     <div class="bg-white p-5 border rounded-2xl lg:col-span-2 lg:order-5">
                         <div class="overflow-hidden rounded-3xl">
-                            <img class="w-full max-h-60 lg:h-full transition duration-500 object-cover ease-linear hover:scale-105 cursor-pointer" src="./assets/img5.png" alt="img5">
+                            <img class="w-full max-h-60 lg:h-full transition duration-500 object-cover ease-linear hover:scale-105  cursor-pointer" src="./assets/img5.png" alt="img5">
                         </div>
                     </div>
                 </div>
@@ -494,7 +495,7 @@
                         <!-- blog-1 -->
                         <div class="md:flex lg:flex-col gap-4 bg-white  p-6 rounded-xl mt-3 transition-transform duration-500 lg:hover:-translate-y-2 cursor-pointer">
                             <div class="overflow-hidden rounded-3xl">
-                                <img class="w-full h-full transition duration-500 object-cover ease-linear hover:scale-105 cursor-pointer" src="./assets/article1.png" alt="article1">
+                                <img class="w-full h-full transition duration-500 object-cover ease-linear hover:scale-105  cursor-pointer" src="./assets/article1.png" alt="article1">
                             </div>
                             <!-- blog content -->
                             <div class="text-left space-y-2">
@@ -519,7 +520,7 @@
                         <!-- blog-2 -->
                         <div class="md:flex lg:flex-col gap-4 bg-white  p-6 rounded-xl mt-3 transition-transform duration-500 lg:hover:-translate-y-2 cursor-pointer">
                             <div class="overflow-hidden rounded-3xl">
-                                <img class="w-full h-full transition duration-500 object-cover ease-linear hover:scale-105 cursor-pointer" src="./assets/article2.png" alt="article2">
+                                <img class="w-full h-full transition duration-500 object-cover ease-linear hover:scale-105  cursor-pointer" src="./assets/article2.png" alt="article2">
                             </div>
                             <!-- blog content -->
                             <div class="text-left space-y-2">
@@ -544,7 +545,7 @@
                         <!-- blog-3 -->
                         <div class="md:flex lg:flex-col gap-4 bg-white  p-6 rounded-xl mt-3 transition-transform duration-500 lg:hover:-translate-y-2 cursor-pointer">
                             <div class="overflow-hidden rounded-3xl">
-                                <img class="w-full h-full transition duration-500 object-cover ease-linear hover:scale-105 cursor-pointer" src="./assets/article3.png" alt="article3">
+                                <img class="w-full h-full transition duration-500 object-cover ease-linear hover:scale-105  cursor-pointer" src="./assets/article3.png" alt="article3">
                             </div>
                             <!-- blog content -->
                             <div class="text-left space-y-2">
